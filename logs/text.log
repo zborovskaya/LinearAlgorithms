@@ -1,0 +1,11 @@
+2021-05-20 09:27:11.281 [main] ERROR entities.EleventhTask - Negative leg a!
+2021-05-20 09:27:11.287 [main] ERROR entities.EleventhTask - Can't find the perimeter
+2021-05-20 09:27:11.287 [main] ERROR entities.EleventhTask - Can't find the square
+2021-05-20 10:13:31.120 [main] ERROR entities.NineteenthTask - Negative leg a!
+2021-05-20 10:13:31.120 [main] ERROR entities.NineteenthTask - Can't find the square
+2021-05-20 10:13:31.121 [main] ERROR entities.NineteenthTask - Can't find the Height
+2021-05-20 10:13:31.122 [main] ERROR entities.NineteenthTask - Can't find the Inscribed circle radius
+2021-05-20 10:13:31.122 [main] ERROR entities.NineteenthTask - Radius of the circumscribed circle
+2021-05-20 10:17:44.009 [main] ERROR entities.EleventhTask - Negative leg a!
+2021-05-20 10:17:44.016 [main] ERROR entities.EleventhTask - Can't find the perimeter
+2021-05-20 10:17:44.016 [main] ERROR entities.EleventhTask - Can't find the square

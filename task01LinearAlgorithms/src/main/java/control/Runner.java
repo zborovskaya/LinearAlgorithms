@@ -28,13 +28,14 @@ public class Runner {
     }
 
     public static void main(String[] args) {
-        boolean run = true;
-        while (run) {
+        boolean bool = true;
+        while (bool) {
             showMenu();
             Scanner scan = new Scanner(System.in);
             int choice = scan.nextInt();
             switch (choice) {
                 case 1: {
+                    logger.info("User chose Task 3");
                     System.out.println("Enter x and press <Enter> & y and press <Enter>:");
                     double x = scan.nextDouble();
                     double y = scan.nextDouble();
@@ -43,40 +44,71 @@ public class Runner {
                     thirdTask.setX(x);
                     thirdTask.setY(y);
                     System.out.println("Z = " + thirdTask.calculate());
+                    logger.info("Task completed successfully");
                     break;
                 }
                 case 2: {
+                    logger.info("User chose Task 11");
                     System.out.println("Enter a and press <Enter> & number and b <Enter>:");
                     double a = scan.nextDouble();
                     double b = scan.nextDouble();
                     EleventhTask eleventhTask = new EleventhTask();
                     eleventhTask.setA(a);
                     eleventhTask.setB(b);
-                    System.out.println("Perimeter is " + eleventhTask.getPerimeter());
-                    System.out.println("Square is "+ eleventhTask.getSquare());
+                    double p=eleventhTask.getPerimeter();
+                    if (p!=0){
+                    System.out.println("Perimeter is " + p);
+                    logger.info("Function completed successfully");
+                    }
+                    double s=eleventhTask.getSquare();
+                    if (s!=0) {
+                        System.out.println("Square is " +s );
+                        logger.info("Function completed successfully");
+                    }
 
                     break;
                 }
                 case 3: {
+                    logger.info("User chose Task 19");
                     System.out.println("Enter a and press <Enter> :");
                     double a = scan.nextDouble();
                     NineteenthTask nineteenthTask= new NineteenthTask();
                     nineteenthTask.setA(a);
-                    System.out.println("Square is "+nineteenthTask.getSquare());
-                    System.out.println("Height is "+nineteenthTask.getHeight());
-                    System.out.println("Inscribed circle radius is "+nineteenthTask.getRadiusIn());
-                    System.out.println("Radius of the circumscribed circle is "+nineteenthTask.getRadiusOut());
+                    double s=nineteenthTask.getSquare();
+                    if(s!=0) {
+                        System.out.println("Square is " + s);
+                        logger.info("Function completed successfully");
+                    }
+                    double height=nineteenthTask.getHeight();
+                    if(height!=0){
+                        System.out.println("Height is "+height);
+                        logger.info("Function completed successfully");
+                    }
+                    double rIn=nineteenthTask.getRadiusIn();
+                    if(rIn!=0) {
+                        System.out.println("Inscribed circle radius is " + rIn);
+                        logger.info("Function completed successfully");
+                    }
+                    double rOut=nineteenthTask.getRadiusOut();
+                    if(rOut!=0);
+                    {
+                        System.out.println("Radius of the circumscribed circle is " + rOut);
+                        logger.info("Function completed successfully");
+                    }
                     break;
                 }
                 case 4: {
+                    logger.info("User chose Task 27");
                     System.out.println("Enter a and press <Enter>");
                     double a = scan.nextDouble();
                     TwentySeventhTask twentySeventhTask= new TwentySeventhTask();
                     twentySeventhTask.setA(a);
                     twentySeventhTask.calculate();
+                    logger.info("Task completed successfully");
                     break;
                 }
                 case 5: {
+                    logger.info("User chose Task 35");
                     System.out.println("Enter m and press <Enter> & number and n <Enter>:");
                     double m = scan.nextDouble();
                     double n = scan.nextDouble();
@@ -84,15 +116,16 @@ public class Runner {
                     thirtyFifthTask.setM(m);
                     thirtyFifthTask.setN(n);
                     thirtyFifthTask.calculate();
+                    logger.info("Task completed successfully");
                     break;
                 }
                 case 6: {
-                    System.out.println("Exit");
-                    run = false;
+                    logger.info("Exit");
+                    bool = false;
                     break;
                 }
                 default:
-                    System.out.println("You can choose only 1-6");
+                    logger.error("You can choose only 1-6");
                     break;
             }
         }
