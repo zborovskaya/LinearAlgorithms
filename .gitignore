@@ -2,3 +2,5 @@
 out/
 .idea/
 target/
+logs/
+.OS_Store/

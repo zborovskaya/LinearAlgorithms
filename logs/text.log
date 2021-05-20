@@ -9,3 +9,46 @@
 2021-05-20 10:17:44.009 [main] ERROR entities.EleventhTask - Negative leg a!
 2021-05-20 10:17:44.016 [main] ERROR entities.EleventhTask - Can't find the perimeter
 2021-05-20 10:17:44.016 [main] ERROR entities.EleventhTask - Can't find the square
+2021-05-20 10:59:35.145 [main] ERROR by.training.entities.EleventhTask - Negative leg a!
+2021-05-20 10:59:35.147 [main] ERROR by.training.entities.EleventhTask - Can't find the perimeter
+2021-05-20 10:59:35.147 [main] ERROR by.training.entities.EleventhTask - Can't find the square
+2021-05-20 15:06:09.826 [main] ERROR by.training.entities.NineteenthTask - Negative leg a!
+2021-05-20 15:06:09.827 [main] ERROR by.training.entities.NineteenthTask - Can't find the square
+2021-05-20 15:06:09.827 [main] ERROR by.training.entities.NineteenthTask - Can't find the Height
+2021-05-20 15:06:09.827 [main] ERROR by.training.entities.NineteenthTask - Can't find the Inscribed circle radius
+2021-05-20 15:06:09.828 [main] ERROR by.training.entities.NineteenthTask - Radius of the circumscribed circle
+2021-05-20 15:11:46.100 [main] ERROR by.training.entities.NineteenthTask - Negative leg a!
+2021-05-20 15:11:46.101 [main] ERROR by.training.entities.NineteenthTask - Can't find the square
+2021-05-20 15:11:46.101 [main] ERROR by.training.entities.NineteenthTask - Can't find the Height
+2021-05-20 15:11:46.101 [main] ERROR by.training.entities.NineteenthTask - Can't find the Inscribed circle radius
+2021-05-20 15:11:46.101 [main] ERROR by.training.entities.NineteenthTask - Radius of the circumscribed circle
+2021-05-20 15:13:05.510 [main] ERROR by.training.entities.NineteenthTask - Negative leg a!
+2021-05-20 15:13:05.511 [main] ERROR by.training.entities.NineteenthTask - Can't find the square
+2021-05-20 15:13:05.511 [main] ERROR by.training.entities.NineteenthTask - Can't find the Height
+2021-05-20 15:13:05.511 [main] ERROR by.training.entities.NineteenthTask - Can't find the Inscribed circle radius
+2021-05-20 15:13:05.511 [main] ERROR by.training.entities.NineteenthTask -  Can't find the radius of the circumscribed circle
+2021-05-20 15:13:39.893 [main] ERROR by.training.entities.NineteenthTask - Negative leg a!
+2021-05-20 15:13:39.894 [main] ERROR by.training.entities.NineteenthTask - Can't find the square
+2021-05-20 15:13:39.894 [main] ERROR by.training.entities.NineteenthTask - Can't find the Height
+2021-05-20 15:13:39.895 [main] ERROR by.training.entities.NineteenthTask - Can't find the Inscribed circle radius
+2021-05-20 15:13:39.895 [main] ERROR by.training.entities.NineteenthTask -  Can't find the radius of the circumscribed circle
+2021-05-20 15:18:06.939 [main] ERROR by.training.entities.NineteenthTask - Negative leg a!
+2021-05-20 15:18:06.940 [main] ERROR by.training.entities.NineteenthTask - Can't find the square
+2021-05-20 15:18:06.940 [main] ERROR by.training.entities.NineteenthTask - Can't find the Height
+2021-05-20 15:18:06.940 [main] ERROR by.training.entities.NineteenthTask - Can't find the Inscribed circle radius
+2021-05-20 15:18:06.940 [main] ERROR by.training.entities.NineteenthTask -  Can't find the radius of the circumscribed circle
+2021-05-20 15:20:31.036 [main] ERROR by.training.entities.NineteenthTask - Negative leg a!
+2021-05-20 15:20:31.036 [main] ERROR by.training.entities.NineteenthTask - Can't find the square
+2021-05-20 15:20:31.037 [main] ERROR by.training.entities.NineteenthTask - Can't find the Height
+2021-05-20 15:20:31.037 [main] ERROR by.training.entities.NineteenthTask - Can't find the Inscribed circle radius
+2021-05-20 15:20:31.037 [main] ERROR by.training.entities.NineteenthTask -  Can't find the radius of the circumscribed circle
+2021-05-20 15:22:07.901 [main] ERROR by.training.entities.NineteenthTask - Negative leg a!
+2021-05-20 15:22:07.902 [main] ERROR by.training.entities.NineteenthTask - Can't find the square
+2021-05-20 15:22:07.902 [main] ERROR by.training.entities.NineteenthTask - Can't find the Height
+2021-05-20 15:22:07.902 [main] ERROR by.training.entities.NineteenthTask - Can't find the Inscribed circle radius
+2021-05-20 15:22:07.902 [main] ERROR by.training.entities.NineteenthTask -  Can't find the radius of the circumscribed circle
+2021-05-20 15:24:23.275 [main] ERROR by.training.entities.NineteenthTask - Negative leg a!
+2021-05-20 15:24:23.276 [main] ERROR by.training.entities.NineteenthTask - Can't find the square
+2021-05-20 15:24:23.276 [main] ERROR by.training.entities.NineteenthTask - Can't find the Height
+2021-05-20 15:24:23.277 [main] ERROR by.training.entities.NineteenthTask - Can't find the Inscribed circle radius
+2021-05-20 15:24:23.277 [main] ERROR by.training.entities.NineteenthTask -  Can't find the radius of the circumscribed circle

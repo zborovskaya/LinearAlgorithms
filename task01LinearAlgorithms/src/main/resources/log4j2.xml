@@ -20,27 +20,27 @@
 		<Root level="DEBUG">
 			<AppenderRef ref="Console"/>
 		</Root>
-		<Logger name="entities.ThirdTask" level="error"
+		<Logger name="by.training.entities.ThirdTask" level="error"
 				additivity="true">
 			<AppenderRef ref="Console" />
 			<AppenderRef ref="TxtFile" />
 		</Logger>
-		<Logger name="entities.EleventhTask" level="error"
+		<Logger name="by.training.entities.EleventhTask" level="error"
 				additivity="true">
 			<AppenderRef ref="Console" />
 			<AppenderRef ref="TxtFile" />
 		</Logger>
-		<Logger name="entities.NineteenthTask" level="error"
+		<Logger name="by.training.entities.NineteenthTask" level="error"
 				additivity="true">
 			<AppenderRef ref="Console" />
 			<AppenderRef ref="TxtFile" />
 		</Logger>
-		<Logger name="entities.TwentySeventhTask" level="error"
+		<Logger name="by.training.entities.TwentySeventhTask" level="error"
 				additivity="true">
 			<AppenderRef ref="Console" />
 			<AppenderRef ref="TxtFile" />
 		</Logger>
-		<Logger name="entities.ThirtyFifthTask" level="error"
+		<Logger name="by.training.entities.ThirtyFifthTask" level="error"
 				additivity="true">
 			<AppenderRef ref="Console" />
 			<AppenderRef ref="TxtFile" />

@@ -1,4 +1,4 @@
-package entities;
+package by.training.entities;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -9,6 +9,10 @@ public class EleventhTask {
     private double b;
     private boolean bool=true;
 
+    /**
+     *The function sets the value of the field a
+     * @param value is double value
+     */
     public void setA(double value) {
         if(value > 0) {
             a = value;
@@ -17,9 +21,10 @@ public class EleventhTask {
             logger.error("Negative leg a!");
         }
     }
-    public double getA() {
-        return a;
-    }
+    /**
+     *The function sets the value of the field b
+     * @param value is double value
+     */
     public void setB(double value) {
         if(value > 0) {
             b = value;
@@ -27,24 +32,32 @@ public class EleventhTask {
             logger.error("Negative leg a!");
         }
     }
-    public double getB() {
-        return b;
-    }
+
+    /**
+     *The function calculates the value of the perimeter
+     * First, find the hypotenuse.
+     * The hypotenuse is the sum of the squares of the legs.
+     * The perimeter is the sum of the sides of the triangle.
+     * Find the perimeter.
+     * @return perimeter value
+     */
     public double getPerimeter() {
         if (bool) {
-            double c = Math.sqrt(a * a + b * b); // hypotenuse
-            double p = a + b + c;
-            return p;
+            return (Math.sqrt(a * a + b * b) + a + b);
         }
         else {
             logger.error("Can't find the perimeter");
             return 0;
         }
     }
+    /**
+     * *The function calculates the value of square
+     * Using the formula for calculating square
+     * @return square value
+     */
     public double getSquare(){
         if (bool) {
-            double s = a*b/2;
-            return s;
+            return (a*b/2);
         }
         else {
             logger.error("Can't find the square");
